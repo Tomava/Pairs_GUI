@@ -1,0 +1,11 @@
+ <svg height="200" width="200">
+  <defs>
+    <linearGradient id="gradRec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(248, 31, 108);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0, 207, 33);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" style="fill:url(#gradRec);stroke-width:3;stroke:rgb(0,0,0)" />
+  <text fill="rgb(19, 0, 107)" stroke="black" stroke-width="1" font-size="130" font-family="Open Sans" x="100" y="150" alignment-baseline="central" text-anchor="middle">
+  V</text>
+</svg> 
