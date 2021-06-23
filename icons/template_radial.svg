@@ -8,6 +8,6 @@
     </radialGradient>
   </defs>
   <rect width="200" height="200" style="fill:url(#gradRec);stroke-width:3;stroke:rgb(0,0,0)" />
-  <text fill="rgb(255,255,255)" stroke="black" stroke-width="1" font-size="180" font-family="Open Sans" x="100" y="165" alignment-baseline="central" text-anchor="middle">
-  T</text>
+  <text fill="rgb(255,255,255)" stroke="black" stroke-width="1" font-size="130" font-family="Helvetica" x="100" y="150" alignment-baseline="central" text-anchor="middle">
+  REPLACEWITHELEMENT</text>
 </svg> 
