@@ -19,3 +19,5 @@ The game is played by revealing 2 cards. After this the player clicks on "Change
 C, CTRL or Enter key. If the 2 cards have the same element in them, the player in turn gets another turn.
 If cards were not the same, it's the next player's turn. When all cards are removed from the game, the player
 with the most points win. If there are multiple players with the same score, it's a draw.
+
+![Pairs_GUI](https://user-images.githubusercontent.com/66073405/128711405-f953f00b-fa56-466b-9037-c840f367eed5.gif)
