@@ -1,10 +1,20 @@
 # Pairs_GUI
- Pairs game made with C++.
+Pairs game made with C++.
+![Pairs_GUI](https://user-images.githubusercontent.com/66073405/128711405-f953f00b-fa56-466b-9037-c840f367eed5.gif)
 
-### Updating cards (requires python)
+## Updating cards (requires python)
 To update card colours run **RedoSVG.py**.
 
-### Instructions
+## Build instructions (Windows)
+```sh
+qmake.exe pairs_gui.pro -r -spec win32-g++ CONFIG?=qtquickcompiler
+mingw32-make.exe -f Makefile.Release
+mingw32-make.exe clean
+windeployqt.exe release\pairs_gui.exe
+```
+Built executable will be in **release/pairs_gui.exe**
+
+## Instructions
 This is a card game where the goal is to get a pair of 2 cards. Players take turn in the game.
 The player who's currently in turn is shown on top left corner. Players can be added and removed by
 using the rightmost textbrowser. Each new line is a player and the maximum number of characters in
@@ -20,4 +30,3 @@ C, CTRL or Enter key. If the 2 cards have the same element in them, the player i
 If cards were not the same, it's the next player's turn. When all cards are removed from the game, the player
 with the most points win. If there are multiple players with the same score, it's a draw.
 
-![Pairs_GUI](https://user-images.githubusercontent.com/66073405/128711405-f953f00b-fa56-466b-9037-c840f367eed5.gif)
