@@ -23,6 +23,7 @@
 #include <string>
 #include <set>
 #include <time.h>
+#include <QDir>
 #include "card.hh"
 #include "player.hh"
 

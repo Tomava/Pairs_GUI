@@ -30,10 +30,10 @@ MainWindow::MainWindow(QWidget *parent)
     player_names_instructions_ = new QLabel("Set player names.\nEach new line is a player.\n(max " + QString::number(MAX_PLAYER_NAME_LENGTH) + " chars per name)", this);
     player_names_instructions_->setAlignment(Qt::AlignCenter);
     score_board_ = new QTextBrowser(this);
-    score_board_instructions_ = new QLabel("Score board", this);
+    score_board_instructions_ = new QLabel("Scoreboard", this);
     score_board_instructions_->setAlignment(Qt::AlignCenter);
     all_time_score_board_ = new QTextBrowser(this);
-    all_time_score_board_instructions_ = new QLabel("All time score board", this);
+    all_time_score_board_instructions_ = new QLabel("All time scoreboard", this);
     all_time_score_board_instructions_->setAlignment(Qt::AlignCenter);
     game_size_selector_ = new QComboBox(this);
     auto_scroll_ = new QCheckBox(this);
