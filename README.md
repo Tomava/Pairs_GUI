@@ -2,7 +2,7 @@
 Pairs game made with C++.
 ![Pairs_GUI](https://user-images.githubusercontent.com/66073405/128711405-f953f00b-fa56-466b-9037-c840f367eed5.gif)
 
-## Updating cards (requires python)
+## Updating cards
 To update card colours run **RedoSVG.py**.
 
 ## Build instructions (Windows)
