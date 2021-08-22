@@ -1,6 +1,7 @@
 # Pairs_GUI
 Pairs game made with C++.
-![Pairs_GUI](https://user-images.githubusercontent.com/66073405/128711405-f953f00b-fa56-466b-9037-c840f367eed5.gif)
+![Pairs_GUI](https://user-images.githubusercontent.com/66073405/130361347-dec1f59c-62a2-4ace-bceb-04f654c576dc.gif)
+
 
 ## Updating cards
 To update card colours run **RedoSVG.py**.
